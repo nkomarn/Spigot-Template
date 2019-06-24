@@ -1,0 +1,6 @@
+name: Harbor
+version: ${version}
+author: TechToolbox (@nkomarn)
+main: xyz.nkomarn.Harbor.Harbor
+description: A plugin!
+api-version: 1.13
