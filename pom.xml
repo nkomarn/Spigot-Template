@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>xyz.nkomarn</groupId>
-  <artifactId>Template</artifactId>
+  <artifactId>SeedBookban</artifactId>
   <version>1.0</version>
   
-  <name>Harbor</name>
-  <url>http://harbor.nkomarn.xyz</url>
+  <name>SeedBookban</name>
+  <url>http://nkomarn.xyz</url>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,7 +42,7 @@
   </dependencies>
   
   <build>
-    <directory>C:\Users\Mykyta\Documents\Spigot\1.13.2\plugins</directory>
+    <directory>target</directory>
     <resources>
       <resource>
         <filtering>true</filtering>
@@ -64,7 +64,7 @@
             <relocations>
               <relocation>
                 <pattern>org.bstats</pattern>
-                <shadedPattern>xyz.nkomarn.Template</shadedPattern>
+                <shadedPattern>xyz.nkomarn.SeedBookban</shadedPattern>
               </relocation>
             </relocations>
             <artifactSet>

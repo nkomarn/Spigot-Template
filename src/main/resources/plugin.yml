@@ -1,6 +1,6 @@
-name: Harbor
+name: SeedBookbans
 version: ${version}
 author: TechToolbox (@nkomarn)
-main: xyz.nkomarn.Harbor.Harbor
-description: A plugin!
+main: xyz.nkomarn.SeedBookban.SeedBookban
+description: Eliminate bookbanning once and for all!
 api-version: 1.13
