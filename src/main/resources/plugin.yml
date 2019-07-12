@@ -1,6 +1,6 @@
-name: SeedBookbans
-version: ${version}
+name: ${name}
+version: Build ${version}
 author: TechToolbox (@nkomarn)
-main: xyz.nkomarn.SeedBookban.SeedBookban
-description: Eliminate bookbanning once and for all!
+main: xyz.nkomarn.${name}.${name}
+description: Tech is an idiot. Compiled ${maven.build.timestamp}.
 api-version: 1.13

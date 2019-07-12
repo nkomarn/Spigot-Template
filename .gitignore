@@ -1,4 +1,6 @@
 .vscode/
 .settings/
+.idea/
 target/
 jars/
+.classpath
